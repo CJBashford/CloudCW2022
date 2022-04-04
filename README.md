@@ -24,4 +24,5 @@ The application also integrates with `NewsAPI` in order to provide a feed of pop
 2. Create config.py file within `project` directory
 3. In config.py, declare a variable called `api_key`. Set this variable equal to the API key sourced from `NewsAPI` [here](https://newsapi.org/register)
 4. Google BigQuery service account credentials for a project are provided as a json file; When this file is obtained, add it to the `project` directory
+<img width="302" alt="Screenshot 2022-04-04 at 16 06 55" src="https://user-images.githubusercontent.com/58397502/161574156-85debf19-aed4-4ee7-9d5b-f677cdeae1c3.png">
 5. Go to line 17 in project/functions.py where the JSON file that stores credentials is referenced; update the filename here to your file containing your credentials.
